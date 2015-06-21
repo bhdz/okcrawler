@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # This is my :local: content imports. My ::stuff: here, so :it::went::to::the::top.:
-from puley import Labeled, Node, Eye
+# from puley import Labeled, Node, Eye
 
 # These are all the Pythonic imports I need
 import os, sys, re
