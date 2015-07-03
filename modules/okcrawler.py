@@ -54,8 +54,7 @@ def check_readout_file():
     print dump_file(contents, path = '/home/dakkar/Desktop', filename = "words.2")
     
 def check_download_file():
-    the_file = download_file(
-                "http://i.fappyness.com/processed/Z1Rv4LxZUFVJ4yHg94IcGWaV8glIFH.jpg")
+    the_file = download_file("http://google.com")
 
     dump_file(the_file['response'].content, path = '/home/dakkar/Desktop', 
               filename = the_file['local_filename'])
